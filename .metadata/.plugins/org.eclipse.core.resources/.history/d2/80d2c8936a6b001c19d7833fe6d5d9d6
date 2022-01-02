@@ -1,0 +1,12 @@
+package cuentaDeBanco;
+
+public class BankAccount {
+
+	static String  numeroDeCuenta;
+	static double saldoCuentaCorriente;
+	static double saldoCuentaAhorro;
+	
+	private static void aleatorio() {
+		
+	}
+}
