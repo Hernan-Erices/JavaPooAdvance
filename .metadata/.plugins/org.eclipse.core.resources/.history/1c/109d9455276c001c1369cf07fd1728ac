@@ -1,0 +1,8 @@
+package Interfaz;
+
+public interface OperateBicycle {
+	
+    void speedUp(int increment);
+    void applyBrakes(int decrement);
+
+}
