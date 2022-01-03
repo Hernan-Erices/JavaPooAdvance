@@ -1,5 +1,7 @@
 package cuentaDeBanco;
 
+import java.util.Scanner;
+
 public class BankAccount {
 
 	 int  numeroCuenta;
@@ -9,15 +11,15 @@ public class BankAccount {
 	 public static int cuentasCreadas = 0;
 	 private static int dineroAlmacenado;
 	 	
-	 
+
+
 		// METODO NUMERO ALEATORIO
 		private static double NumeroAleatorio(int a) {
-			double start=1000000000;
-			double Final = 999999999;
+			int start=1000000000;
+			int Final = 999999999;
 		    int NumAleatorio = (int) (start + Math.random() * Final);
 		    return NumAleatorio;
 		}
-	 
 	 
 		//CONSTRUCTOR
 		public BankAccount() {
@@ -26,12 +28,11 @@ public class BankAccount {
 			this.numeroCuenta = numeroCuenta;
 			
 			NumeroAleatorio(numeroCuenta);
+			
 
 			//NUMERO DE CUENTAS CREEADAS
 			cuentasCreadas++;	
 		}
-		
-		
 		
 		
 		//GETTERS
@@ -43,13 +44,11 @@ public class BankAccount {
 			return saldoCuentaAhorro;
 		}
 		
-		public int getNumeroCuenta() {
-			return numeroCuenta;
-		}
 		
 		
 		//METODO DEPOSITAR
-		public static void depositarDinero() {
+		public static void depositarDinero() {	
+			
 			
 		}
 		
@@ -58,7 +57,7 @@ public class BankAccount {
 			
 		}
 
-	//METODO RETIRBNA NUMERO DE CUENTAS CREADAS
+	//METODO RETORNAR NUMERO DE CUENTAS CREADAS
 	   public static int cuentasCreadas() {
 			return cuentasCreadas;
 	    }
