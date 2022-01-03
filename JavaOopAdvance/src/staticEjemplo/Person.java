@@ -6,7 +6,6 @@ public class Person {
 
     private String name;
 
-    // the variable is now private
 
     private static int numberOfPeople = 0;
 
