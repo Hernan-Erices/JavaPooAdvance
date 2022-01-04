@@ -13,6 +13,7 @@ public class OperationsCalculator {
 		calculator.setOperandTwo(b);
 		calculator.setResult(a+b);
 		return calculator;
+		
 	}
 	
 	protected Calculator performOperationResta(int a, int b) {
@@ -23,6 +24,7 @@ public class OperationsCalculator {
 		calculator.setOperandTwo(b);
 		calculator.setResult(a-b);
 		return calculator;
+		
 	}
 
 }
