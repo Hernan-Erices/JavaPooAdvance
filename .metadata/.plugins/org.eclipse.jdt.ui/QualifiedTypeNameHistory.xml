@@ -6,4 +6,5 @@
     <fullyQualifiedTypeName name="Telefono.IPhone"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
     <fullyQualifiedTypeName name="pokemon.Pokemon"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

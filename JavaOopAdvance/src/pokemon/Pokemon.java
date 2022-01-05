@@ -23,12 +23,18 @@ public class Pokemon {
 		
 		count++;
 	}
-    
-    
+
 	//METODO ATACAR POKEMOON ---> SALIDA: Reduce la salud del pokemon atacado en 10 puntos
     public void attackPokemon(Pokemon pokemon) {
+    
+    	int ataque = 10;
+    	ataque = pokemon.health - ataque;
+    	String pokemonAtacante;
     	
+    	System.out.println("has atacado a " + pokemon.name + ", su PS era de " + pokemon.health +" y pasa a ser de " + ataque + " PS.");
     }
+    
+    
     
     
     
