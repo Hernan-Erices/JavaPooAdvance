@@ -25,8 +25,6 @@ public abstract class AbstractPokemon implements PokemonInterface {
 		return pokemon.toString();	
 	}
 	
-	//public static ArrayList <AbstractPokemon> createPokemon = new ArrayList <AbstractPokemon>();
-	
 	
 	
 

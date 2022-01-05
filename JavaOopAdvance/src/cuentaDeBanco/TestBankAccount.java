@@ -11,9 +11,6 @@ public class TestBankAccount {
 		BankAccount usuario2 = new BankAccount();
 		usuario2.getSaldoCuentaAhorro();
 		
-		
-		
-		
 		//NUMERO DE CUENTAS CREADAS
 		System.out.println(BankAccount.cuentasCreadas());
 	}

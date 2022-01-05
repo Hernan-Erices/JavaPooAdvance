@@ -12,7 +12,13 @@ public class Pokedex extends AbstractPokemon{
     	 return myPokemons ;
      }
 	
+     
+     
+     
+     
 	static void listPokemon() {
+		
+		
 		
 	}
 	

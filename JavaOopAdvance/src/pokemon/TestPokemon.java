@@ -14,8 +14,8 @@ public class TestPokemon {
 		
 		//CLASE POKEMON ATACAR A OTRO POKEMON
 		pikachu.attackPokemon(pikachu);
-		charizard.attackPokemon(charizard);
-		Venusaur.attackPokemon(charizard);
+		charizard.attackPokemon(Venusaur);
+		Venusaur.attackPokemon(Metapod);
 		Metapod.attackPokemon(charizard);
 		
 		System.out.println("----------------------------------------------------");
@@ -27,7 +27,9 @@ public class TestPokemon {
 		Pokedex pokedex = new Pokedex();
 		pokedex.listPokemon();
 		pokedex.PokemonsCreados();
-		
-		
 	}
+	
+	
+	
+	
 }

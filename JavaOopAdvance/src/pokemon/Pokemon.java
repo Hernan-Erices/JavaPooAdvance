@@ -13,6 +13,7 @@ public class Pokemon {
     public static int count() {
     	return count;
     }
+    
 
     //METODO CONSTRUCTOR
     public Pokemon(String name, int health, String type) {
@@ -29,13 +30,9 @@ public class Pokemon {
     
     	int ataque = 10;
     	ataque = pokemon.health - ataque;
-    	String pokemonAtacante;
     	
-    	System.out.println("has atacado a " + pokemon.name + ", su PS era de " + pokemon.health +" y pasa a ser de " + ataque + " PS.");
+    		System.out.println("has atacado a " + pokemon.name + ", su PS era de " + pokemon.health +" y pasa a ser de " + ataque + " PS.");
     }
-    
-    
-    
     
     
     //GETTERS Y SETTERS

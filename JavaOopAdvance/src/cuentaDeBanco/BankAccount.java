@@ -29,7 +29,6 @@ public class BankAccount {
 			
 			NumeroAleatorio(numeroCuenta);
 			
-
 			//NUMERO DE CUENTAS CREEADAS
 			cuentasCreadas++;	
 		}
@@ -47,13 +46,17 @@ public class BankAccount {
 		
 		
 		//METODO DEPOSITAR
-		public static void depositarDinero() {	
+		public static void depositarDinero() {
+			
+			
 			
 			
 		}
 		
 		//METODO RETIRAR DINERO
 		public static void retirarDinero() {
+			
+			
 			
 		}
 
