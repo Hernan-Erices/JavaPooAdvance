@@ -5,27 +5,23 @@ import java.util.ArrayList;
 public abstract class AbstractPokemon implements PokemonInterface {
 
 	public Pokemon createPokemon() {
-		return createPokemon("A",0,"E");
+		return createPokemon("Pikachu",75,"Electrico");
 	}
 	
 	public Pokemon createPokemon2() {
-		return createPokemon("B",0,"F");
+		return createPokemon("Mew",150,"Psiquico");
 	}
 	
 	public Pokemon createPokemon3() {
-		return createPokemon("C",0,"G");
+		return createPokemon("Metapod",30,"Bicho");
 	}
 	
 	public Pokemon createPokemon4() {
-		return createPokemon("D",0,"H");
+		return createPokemon("Charmander",80,"Fuego");
 	}
 	
 	//IMPLEMETANCION DE POKEMONINFO
 	static String pokemonInfo(Pokemon pokemon) {
 		return pokemon.toString();	
 	}
-	
-	
-	
-
 }

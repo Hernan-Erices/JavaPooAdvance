@@ -15,8 +15,7 @@ public class OperationsCalculator {
 	
 	}
 	
-	protected Calculator performOperationResta(int a, int b) {
-		
+	protected Calculator performOperationResta(int a, int b) {	
 		calculator = new Calculator();
 		calculator.setOperandOne(a);
 		calculator.setOperation("-");

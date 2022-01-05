@@ -1,7 +1,4 @@
 package pokemon;
-
-import cuentaDeBanco.BankAccount;
-
 public class TestPokemon {
 
 	public static void main(String[] args) {
@@ -14,7 +11,7 @@ public class TestPokemon {
 		
 		//CLASE POKEMON ATACAR A OTRO POKEMON
 		pikachu.attackPokemon(pikachu);
-		charizard.attackPokemon(Venusaur);
+		charizard.attackPokemon(Metapod);
 		Venusaur.attackPokemon(Metapod);
 		Metapod.attackPokemon(charizard);
 		

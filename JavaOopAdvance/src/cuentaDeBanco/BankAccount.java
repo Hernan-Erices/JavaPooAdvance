@@ -11,8 +11,6 @@ public class BankAccount {
 	 public static int cuentasCreadas = 0;
 	 private static int dineroAlmacenado;
 	 	
-
-
 		// METODO NUMERO ALEATORIO
 		private static double NumeroAleatorio(int a) {
 			int start=1000000000;
@@ -48,15 +46,10 @@ public class BankAccount {
 		//METODO DEPOSITAR
 		public static void depositarDinero() {
 			
-			
-			
-			
 		}
 		
 		//METODO RETIRAR DINERO
 		public static void retirarDinero() {
-			
-			
 			
 		}
 

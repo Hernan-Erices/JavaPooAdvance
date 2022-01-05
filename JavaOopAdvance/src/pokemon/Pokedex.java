@@ -11,10 +11,7 @@ public class Pokedex extends AbstractPokemon{
      public static int PokemonsCreados() {
     	 return myPokemons ;
      }
-	
-     
-     
-     
+
      
 	static void listPokemon() {
 		
