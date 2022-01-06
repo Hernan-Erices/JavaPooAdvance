@@ -5,10 +5,6 @@ import java.util.ArrayList;
 public class Pokedex extends AbstractPokemon{
 
      public static int myPokemons  = 0;
-   
-     public Pokedex() {  
-    	 myPokemons ++;
-     }
      
      public static int PokemonsCreados() {
     	 return myPokemons ;
@@ -22,14 +18,11 @@ public class Pokedex extends AbstractPokemon{
 		
 		pokemones.add("Pikachu");
 		pokemones.add("Metapod");
+		pokemones.add("Charizard");
 		for(int i = 0; i<pokemones.size(); i++) {
 			System.out.println("-----> " + pokemones.get(i));
+			myPokemons++;
 		}
-		
-		myPokemons++;
-		
+		System.out.println("Tienes " + myPokemons + " en la pokedex");
 	}
-	
-	
-
 }

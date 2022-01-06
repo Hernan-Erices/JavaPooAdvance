@@ -18,24 +18,10 @@ public class TestPokemon {
 		System.out.println("----------------------------------------------------");
 		System.out.println("Tienes " + Pokemon.count() + " pokemones creados");
 		System.out.println("----------------------------------------------------");
-		System.out.println("Listado de todos los pokemones creados");
 		
 		//CLASE POKEDEX 
 		Pokedex pokedex = new Pokedex();
-		pokedex.listPokemon();
-		pokedex.PokemonsCreados();
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		System.out.println("LISTADO DE POKEMONES EN LA POKEDEX");
+		pokedex.listPokemon();	
 	}
-	
-	
-	
-	
 }
