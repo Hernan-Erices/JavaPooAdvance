@@ -18,13 +18,11 @@ public class TestBankAccount {
 		Matias.MostrarUsuario();
 		Matias.depositarDineroCC(1000);
 		Matias.depositarDineroCA(5000);
-		Matias.retirarDineroCC(1);
-		Matias.retirarDineroCA(1);
+		Matias.retirarDineroCC(10000);
+		Matias.retirarDineroCA(55000);
 		
 		//CUENTAS CREADAS
 		System.out.println("----------------------------------------");
-		System.out.println("El numero de cuentas creadas es de: " + BankAccount.cuentasCreadas());
-		
+		System.out.println("El numero de cuentas creadas es de: " + BankAccount.cuentasCreadas());	
 	}
-
 }

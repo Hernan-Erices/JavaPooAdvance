@@ -52,19 +52,21 @@ public class BankAccount {
 	
 	
 	//METODO RETIRAR DINERO
-	public static void retirarDineroCC(double retirar) {
+	public void retirarDineroCC(double retirar) {
 		
-		
-	}
-	
-	public static void retirarDineroCA(double retirar) {
-		
+		double resultadoCC = getSaldoCC() - retirar;
+		System.out.println("Has retirado " + retirar + ". y te quedan " + resultadoCC +  " en tu cuenta corriente");
+		System.out.println("Tu saldo actual es de: " + resultadoCC);
 		
 	}
 	
-	
-	
-	
+	public void retirarDineroCA(double retirar) {
+		
+		double resultadoCA = getSaldoCA() - retirar;
+		System.out.println("Has retirado " + retirar + ". y te quedan " + resultadoCA +  " en tu cuenta de ahorros");
+		System.out.println("Tu saldo actual es de: " + resultadoCA);
+		
+	}
 	
 	//GETTERS
 	public double getSaldoCC() {
@@ -75,7 +77,6 @@ public class BankAccount {
 		return saldoCA;
 	}
 	
-
 	//METODO RETORNAR NUMERO DE CUENTAS CREADAS
 	public static int cuentasCreadas() {
 		return cuentasCreadas;
