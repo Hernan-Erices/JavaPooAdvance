@@ -38,12 +38,27 @@ public class BankAccount {
 	
 	
 	//METODO DEPOSITAR
-	public static void depositarDinero() {
+	public void depositarDineroCC(double depositar) {
+		double resultadoCC = depositar + getSaldoCC();
+		System.out.println("Has depositado " + depositar + " a tu cuenta corriente");
+		System.out.println("Tu saldo total es de: " + resultadoCC);
+	}
+	
+	public void depositarDineroCA(double depositar) {
+		double resultadoCA = depositar + getSaldoCA();
+		System.out.println("Has depositado " + depositar + " a tu cuenta de ahorros");
+		System.out.println("Tu saldo total es de: " + resultadoCA);
+	}
+	
+	
+	//METODO RETIRAR DINERO
+	public static void retirarDineroCC(double retirar) {
+		
 		
 	}
 	
-	//METODO RETIRAR DINERO
-	public static void retirarDinero() {
+	public static void retirarDineroCA(double retirar) {
+		
 		
 	}
 	

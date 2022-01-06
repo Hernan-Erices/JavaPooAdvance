@@ -16,7 +16,10 @@ public class TestBankAccount {
 		
 		BankAccount Matias = new BankAccount(500000, 100000);
 		Matias.MostrarUsuario();
-		
+		Matias.depositarDineroCC(1000);
+		Matias.depositarDineroCA(5000);
+		Matias.retirarDineroCC(1);
+		Matias.retirarDineroCA(1);
 		
 		//CUENTAS CREADAS
 		System.out.println("----------------------------------------");
