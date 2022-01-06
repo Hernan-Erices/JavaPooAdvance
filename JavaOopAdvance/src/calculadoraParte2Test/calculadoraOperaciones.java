@@ -12,7 +12,7 @@ protected calculadora performOperationSuma(int a, int b, int c, int d, int e) {
 	Calculadora.setNum3(c);
 	Calculadora.setNum4(d);
 	Calculadora.setNum5(e);
-	Calculadora.setResult(e*d/c+b-a);
+	Calculadora.setResult(a+b-(c*d/e));
 	return Calculadora;
 	}
 	

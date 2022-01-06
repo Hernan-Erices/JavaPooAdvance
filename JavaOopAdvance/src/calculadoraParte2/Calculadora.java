@@ -24,9 +24,6 @@ public class Calculadora implements Serializable{
 	//CONSTRUCTOR
 	public Calculadora() {
 	}
-
-	
-	
 	
 	//GETTERS Y SETTERS
 	public int getNum1() {

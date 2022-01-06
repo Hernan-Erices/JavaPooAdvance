@@ -24,6 +24,15 @@ public class TestPokemon {
 		Pokedex pokedex = new Pokedex();
 		pokedex.listPokemon();
 		pokedex.PokemonsCreados();
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 	
 	

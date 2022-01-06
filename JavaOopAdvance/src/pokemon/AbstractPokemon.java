@@ -1,7 +1,5 @@
 package pokemon;
 
-import java.util.ArrayList;
-
 public abstract class AbstractPokemon implements PokemonInterface {
 
 	public Pokemon createPokemon() {
@@ -19,9 +17,16 @@ public abstract class AbstractPokemon implements PokemonInterface {
 	public Pokemon createPokemon4() {
 		return createPokemon("Charmander",80,"Fuego");
 	}
-	
+
 	//IMPLEMETANCION DE POKEMONINFO
 	static String pokemonInfo(Pokemon pokemon) {
 		return pokemon.toString();	
 	}
+	
+	
+	
+	
+	
+	
+	
 }
