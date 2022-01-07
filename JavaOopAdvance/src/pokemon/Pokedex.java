@@ -25,4 +25,14 @@ public class Pokedex extends AbstractPokemon{
 		}
 		System.out.println("Tienes " + myPokemons + " en la pokedex");
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }

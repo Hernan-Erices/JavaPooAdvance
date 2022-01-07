@@ -23,5 +23,7 @@ public class TestPokemon {
 		Pokedex pokedex = new Pokedex();
 		System.out.println("LISTADO DE POKEMONES EN LA POKEDEX");
 		pokedex.listPokemon();	
+		
+		
 	}
 }

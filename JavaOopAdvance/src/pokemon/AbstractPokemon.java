@@ -20,6 +20,6 @@ public abstract class AbstractPokemon implements PokemonInterface {
 
 	//IMPLEMETANCION DE POKEMONINFO
 	static String pokemonInfo(Pokemon pokemon) {
-		return pokemon.toString();	
+		return null;
 	}
 }
